@@ -1,0 +1,745 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.content {
+  width: 1000px;
+  padding: 0 30px;
+  margin: 0 auto;
+} 
+
+.start {
+  position: fixed;
+  max-width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 102px;
+  vertical-align: top;
+  background: #38383938;
+  z-index: 5;
+}
+
+.logo {
+  float: left;
+  padding-top: 35px;
+  max-width: 82px;
+}
+.menu {
+ float: right;
+ padding-top: 52px;
+ max-width: 858px;
+}
+
+.logo a {
+  text-decoration: none;
+  font-family: "Cookie";
+  font-size: 38px;
+  color: #fed136;
+}
+
+.start_menu a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 14px;
+  padding: 18px;
+}
+.start_menu a:last-child {
+  padding-right: 0;
+}
+
+.start_menu a:first-child {
+  padding-left: 0;
+}
+
+.start_menu a:hover {
+  color: #fed136;
+}
+
+.welcome {
+  max-width: 100%;
+  display: block;
+  position: relative;
+  text-align: center;
+  background-image: url(https://i.lensdump.com/i/8sKL5x.jpg);
+  background-size: cover;
+  min-width: 1000px;
+  padding: 230px 0 180px 0;
+  color: #fff;
+}
+
+h1 {
+  text-transform: capitalize;
+  font-family: "Vollkorn";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 44px;
+  margin-bottom: 0;
+}
+
+.welcome p {
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 73px;
+  margin: 16px auto 65px;
+}
+
+.button {
+  background: #fed136;
+  border-radius: 3px;
+  padding: 21px 49px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.button:hover {
+  background-color: #e2b108;
+}
+
+.services {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0;
+}
+
+.services h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin: 110px 0 0 0;
+}
+
+.services p {
+  font-family: "Vollkorn";
+  font-style: italic;
+  font-size: 20px;
+  color: #777777;
+  margin-top: 5px;
+}
+
+.icons {
+  display: block;
+  margin: 60px auto 0px;
+  font-size: 0;
+}
+
+.commerce, .responsive, .security {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 33.333%;
+  margin: 50px auto;
+}
+
+.commerce::before {
+  content: ''; 
+  background-image: url(https://i.lensdump.com/i/87y537.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid #fed136;
+  border-radius: 80px;
+  margin: 0 auto;
+  padding: 34px;
+}
+
+.responsive::before {
+  content: ''; 
+  background-image: url(https://i.lensdump.com/i/875R9x.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid #fed136;
+  border-radius: 80px;
+  margin: 0 auto;
+  padding: 34px;
+}
+
+.security::before {
+  content: '';
+  background-image: url(https://i.lensdump.com/i/875Ea1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 3px solid #fed136;
+  border-radius: 80px;
+  margin: 0 auto;
+  padding: 34px;
+}
+
+.icons h3 {
+  margin-bottom: 9px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.caption {
+  margin-top: 57px;
+}
+
+.caption p {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-size: 13px;
+  padding: 0px 20px 0px 20px;
+  line-height: 1.7em;
+}
+
+.portfolio {
+  display: block;
+  max-width: 100%;
+  margin: 52px auto 0;
+  padding: 110px 0 120px 0;
+  text-align: center;
+  background-color: #f7f7f7;
+  min-width: 1000px;
+}
+
+.images {
+  font-size: 0px;
+  margin-top: 30px;
+}
+
+.ebony, .smart, .clever, .vinyl, .treehouse, .burned {
+  display: inline-block;
+  width: 33.333%;
+  vertical-align: top;
+  margin: 40px auto 9px;
+  padding: 0 10px;
+}
+
+.portfolio h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.portfolio p {
+  font-family: "Vollkorn";
+  font-style: italic;
+  font-size: 20px;
+  color: #777777;
+  margin: 4px auto 0;
+}
+
+.subscription {
+  padding-bottom: 25px;
+  padding-top: 26px;
+  background-color: #fff;
+}
+
+.subscription a {
+  text-decoration: none;
+  color: #333333
+}
+.subscription h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 17px;
+  margin: 0 auto;
+}
+
+.subscription p {
+  font-family: "Vollkorn";
+  font-style: italic;
+  font-size: 17px;
+  margin: 0 auto;
+  color: #737373;
+}
+
+.images img {
+  max-width: 291px;
+  min-height: 300px;
+}
+
+.about-us {
+  display: block;
+  max-width: 100%;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.about-us h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 0 auto 4px;
+}
+
+.about-us p {
+  font-family: "Vollkorn";
+  font-style: italic;
+  font-size: 20px;
+  margin: 0 auto;
+  color: #777777;
+}
+
+.about-us h4 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #222222;
+  margin: 3px 0 0 0;
+}
+
+.about-us h5 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 16px;
+  font-style: normal;
+  color: #222222;
+  margin: 7px 0;
+}
+
+.columns {
+  display: block;
+  width: 940px;
+  position: relative;
+  margin: 73px auto;
+  padding: 0 30px;
+}
+.columns::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.columns img {
+  width: 180px;
+  height: 180px;
+  border-radius: 100px;
+  border: 7px solid #f1f1f1
+}
+.column {
+  display: block;
+  min-height: 100px;
+  position: relative;
+}
+
+.column-text p {
+  margin-top: 13px;
+  width: 310px;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.5em;
+  color: #777777;
+}
+
+.column-image {
+  width: 180px;
+  margin: 0 40px;
+}
+
+.columns:nth-child(odd) {
+ padding-right: 340px; 
+}
+.columns .column:nth-child(odd) {
+float: left;
+}
+
+.columns .column-text:nth-child(odd) {
+ text-align: right; 
+}
+
+.columns:nth-child(even) {
+ padding-left: 340px;
+}
+
+.columns .column:nth-child(even) {
+  float: right;
+}
+
+.columns .column-text:nth-child(even) {
+   text-align: left; 
+}
+
+.vertical_line {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.vertical_line::before {
+  content:"";
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  left:50%;
+  right:50%;
+  background-color: #f1f1f1;
+  z-index: -5;
+}
+
+
+.continues {
+  width: 181px;
+  height: 181px;
+  border-radius: 100px;
+  border: 7px solid #f1f1f1;
+  background-color: #fed136; 
+  margin: 93px auto 0;
+}
+
+.continues p {
+ font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 16px;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #ffffff; 
+  padding-top: 39px;
+  line-height: 1.5em;
+}
+
+.team {
+  display: block;  
+  text-align: center;
+}
+
+.team h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #222222;
+  margin: 230px 0 0 0;
+}
+
+.team p {
+  font-family: "Vollkorn";
+  font-style: italic;
+  font-size: 20px;
+  color: #777777;
+  margin: 10px 0 0 0;
+}
+
+.people {
+  max-width: 835px;
+  margin: 70px auto 0px;
+  font-size: 0;
+}
+
+.marketer, .coder, .designer {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  width: 33.333%;
+  margin: 0 auto;
+  padding: 10px 28px;
+}
+
+.people img {
+  width: 222px;
+  height: 222px;
+  border-radius: 200px;
+}
+.people h3 {
+  margin: 10px 0 0 0;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 17px;
+  color: #222222;
+  line-height: 2.6em;
+}
+
+.signing-up p {
+  margin: 0;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-size: 13px;
+  padding: 0px 20px 15px 20px;
+  line-height: 0.1em;
+  color: #777777;
+}
+
+.people .fa {
+  padding: 23px;
+}
+
+.icon-twitter,
+.icon-facebook,
+.icon-pinterest, 
+.icon-google {
+  display: inline-block;
+}
+.people .icon-twitter {
+  background-image: url(https://i.lensdump.com/i/8sK5XC.png);
+  background-position: 0 0;
+  margin: 0 auto 22px;
+}
+
+.people .icon-twitter:hover {
+  background-image: url(https://i.lensdump.com/i/8sK5XC.png);
+  background-position: 0 50px;
+  margin: 0 auto 22px;
+  padding: 23px;
+}
+
+.people .icon-facebook {
+  background-image: url(https://i.lensdump.com/i/8sK5XC.png);
+  background-position: -47px 0;
+  margin: 0 auto 22px;
+}
+
+.people .icon-facebook:hover {
+  background-image: url(https://i.lensdump.com/i/8sK5XC.png);
+  background-position: -47px 50px;
+  margin: 0 auto 22px;
+}
+
+.people .icon-pinterest {
+  background-image: url(https://i.lensdump.com/i/8sK5XC.png);
+  background-position: -94px 0;
+  margin: 0 auto 22px;
+}
+
+.people .icon-pinterest:hover {
+  background-image: url(https://i.lensdump.com/i/8sK5XC.png);
+  background-position: -94px 50px;
+  margin: 0 auto 22px;
+}
+
+.people .icon-google {
+  background-image: url(https://i.lensdump.com/i/8sK5XC.png);
+  background-position: 44px 0;
+  margin: 0 auto 22px;
+}
+
+.people .icon-google:hover {
+  background-image: url(https://i.lensdump.com/i/8sK5XC.png);
+  background-position: 44px 50px;
+  margin: 0 auto 22px;
+}
+
+.team .end {
+  max-width: 835px;
+  margin: 12px auto 0;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-size: 15px;
+  padding: 0px 100px;
+  line-height: 1.7em;
+  color: #777777;
+}
+
+.partners {
+  display: block;
+  margin: 156px auto 0;
+  text-align: center;
+}
+
+.partners img {
+  vertical-align: middle;
+  padding: 17px;
+  max-width: 220px;
+}
+
+.contact {
+  max-width: 100%;
+  display: block;
+  padding-bottom: 115px;
+  text-align: center;
+  background-image: url(https://i.lensdump.com/i/8sKUWm.jpg);
+  background-size: cover;
+  min-width: 1000px;
+}
+
+.contact h2 {
+  margin: 45px 0 0 0;
+  padding: 100px 0 0 0;
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.contact p {
+  margin: 10px auto;
+  font-family: "Vollkorn";
+  font-style: italic;
+  font-size: 20px;
+  color: #777777;
+}
+
+.name, .message {
+  margin: 55px 0 20px 0;
+  border: 0;
+  display: inline-block;
+  vertical-align: top;
+  background-repeat: no-repeat;
+}
+
+.name {
+  padding-left: 0;
+}
+.name input {
+  display: block;
+  width: 455px;
+  height: 52px;
+  margin: 27px 0 0 0;
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 3px;
+  border: 0;
+  padding: 20px;
+}
+
+input[type="text"]::placeholder {
+  color: #bbbbbb;
+}
+input[type="email"]::placeholder {
+  color: #bbbbbb;
+}
+textarea[name="message"]::placeholder {
+  color: #bbbbbb;
+}
+
+.name input:first-child {
+  margin: 0;
+}
+
+.message {
+  padding-right: 0;
+}
+.message textarea {
+  display: block;
+  width: 455px;
+  height: 210px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 3px;
+  border: 0;
+  resize: none;
+  padding-top: 15px;
+  padding-left: 20px;
+}
+
+.send_message {
+  display: inline-block;
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 65px;
+  background-color: #fed136;
+  border: 0;
+  border-radius: 3px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.send_message:hover {
+  background-color: #e2b108;
+}
+
+.footer {
+  display: block;
+  height: 90px;
+}
+
+.copyright,
+.social,
+.empty {
+  display: inline-block;
+  width: 313px;
+}
+
+.copyright p,
+.copyright a {
+  font-family: "Montserrat";
+  font-weight: normal;
+  color: #555555;
+  font-size: 13px;
+}
+
+.copyright a {
+  text-decoration: none;
+}
+
+.copyright a:hover {
+  color: #fed136;
+}
+.copyright p::before {
+  content: "\00A9";
+}
+
+.copyright {
+  vertical-align: middle;
+  text-align: left;
+}
+
+.social {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.fa-twitter,
+.fa-facebook,
+.fa-pinterest,
+.fa-google {
+  display: inline-block;
+  padding: 25px;
+  vertical-align: middle;
+}
+.fa-twitter {
+  background-image: url(https://i.lensdump.com/i/8sS6MZ.png);
+  background-position: 0 0;
+}
+
+.fa-twitter:hover {
+  background-image: url(https://i.lensdump.com/i/8sS6MZ.png);
+  background-position: 0px 53px;
+}
+
+.fa-facebook {
+  background-image: url(https://i.lensdump.com/i/8sS6MZ.png);
+  background-position: 150px 0;
+}
+
+.fa-facebook:hover {
+  background-image: url(https://i.lensdump.com/i/8sS6MZ.png);
+  background-position: 150px 53px;
+}
+.fa-pinterest {
+  background-image: url(https://i.lensdump.com/i/8sS6MZ.png);
+  background-position: 100px 0;
+}
+
+.fa-pinterest:hover {
+  background-image: url(https://i.lensdump.com/i/8sS6MZ.png);
+  background-position: 100px 53px;
+}
+
+.fa-google {
+  background-image: url(https://i.lensdump.com/i/8sS6MZ.png);
+  background-position: 50px 0;
+}
+
+.fa-google:hover {
+  background-image: url(https://i.lensdump.com/i/8sS6MZ.png);
+  background-position: 50px 53px;
+}
